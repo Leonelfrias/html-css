@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(104, 104, 104);
+            padding: 3px;
+           box-shadow: 2px 2px 10px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: brown;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 50px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            text-align: justify;
+        }
+
+        article>aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Desporto</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre Angola</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cum consequatur, sed nemo quam expedita
+                cupiditate dolores dicta voluptatibus, deserunt assumenda illo sunt quos explicabo dolorem quia
+                fugiat! Repudiandae, sequi.</p>
+                <aside>
+                  <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por: Leonel</p>
+    </footer>
+</body>
+
+</html>

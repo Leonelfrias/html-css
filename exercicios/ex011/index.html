@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmicas</h1>
+    <p>Tente abrir as imagens em diferentes dispositivos ou diminui a tela e aumenta ela</p>
+    <picture>
+        <source media="(max-width:760px)" srcset="imagens/foto-p.png" type="image/png">
+
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+
+        <img src="imagens/foto-g.png" alt="imagens flexivel">
+    </picture>
+
+    <h1>colocando audio no nosso site</h1>
+    <audio src="midia/MC Caverinha Kayblack Wall Hein  Cartão Black (Clipe Oficial).m4a" preload="metadata" controls autoplay loop></audio>
+</body>
+</html>
